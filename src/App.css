@@ -1,0 +1,209 @@
+.App {
+  text-align: center;
+}
+
+.header-logo {
+  height: 5vmin;
+}
+
+.App-header {
+  background-image: linear-gradient(#444444, #777777);
+  min-height: 100vh;
+  padding-top: 9vh;
+  padding-bottom: 4vh;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.arenaheader {
+  background-color: #222222;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.subpage {
+  margin: 0rem -0.6rem 0rem -0.6rem;
+  background-color: #333333;
+}
+@media (min-width: 992px) {
+  .subpage {
+    margin: 40px 20px 30px 20px;
+    background-color: #333333;
+  }
+}
+
+.bg-contents {
+  background-color: #333333;
+}
+
+.bg-contents02 {
+  background-color: #444444;
+}
+
+.mainbetting_bg {
+  background-color: #313131;
+}
+
+.mysubbg {
+  padding: 20px 0 60px 0;
+  background-color: #333333;
+}
+
+.tablestyle {
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.main-tablestyle {
+  border-bottom: 2px solid #eeeeee;
+}
+
+.tablehead {
+  background-color: #555555;
+}
+
+.main-tablehead {
+  border-top: 2px solid #eeeeee;
+}
+
+.subtitle {
+  border-bottom: 5px solid #eeeeee;
+}
+
+.h2 {
+  content: ' \2022';
+}
+
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #ffc107;
+  transition: 0.2s;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
+
+
+.login_border{
+  border: 1px solid #ffc107;
+  border-radius: 50px;}
+
+.yellowshadow{box-shadow: 0 10px 25px -2px rgba(134, 121, 4, 0.6); }
+.subpage {
+  margin: 0rem -0.6rem 0rem -0.6rem;
+  background-color: #333333;
+}
+@media (min-width: 992px) {
+  .subpage {
+    margin: 40px 20px 30px 20px;
+    background-color: #333333;
+  }
+}
+@media (max-width: 576px) {
+  .cyptoOptionMobileMQ{
+    display: none;
+  }
+  .cryptoOptionMobileFont{
+    font-size: 1rem !important;
+  }
+  .cryptoOptionMobileMargin{
+    margin-top: 0px;
+  }
+  .cryptoOptionMobileRowMargin{
+    margin-top: -10px;
+    margin-bottom: -7px;
+  }
+  .cryptoOptionMobileTopRowMargin{
+    margin-top: -30px !important;
+  }
+  .cryptoOptionMobileMargin{
+    margin-top: 0px !important;
+  }
+  .bettingMobilePairExpose{
+    float: left !important;
+  }
+  .bettingMobilePairExposeFont{
+    font-weight: bold;
+    font-size: 20px !important;
+  }
+  .bettingMobileTimeExposeFont{
+    font-weight: 700;
+    font-size: 14px !important;
+    padding : 5px;
+  }
+}
+@media (min-width: 577px) {
+  .bettingMobilePairExpose{
+    display: none;
+  }
+
+}
+.btn-funding {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-funding:hover {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-funding:focus, .btn-funding.focus {
+  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+
+.btn-funding.disabled, .btn-funding:disabled {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-funding:not(:disabled):not(.disabled):active, .btn-funding:not(:disabled):not(.disabled).active,
+.show > .btn-light.dropdown-toggle {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #d8a200;
+}
+
+.btn-funding:not(:disabled):not(.disabled):active:focus, .btn-funding:not(:disabled):not(.disabled).active:focus,
+.show > .btn-light.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #ffc107;
+}
+.funding_exchange {
+  border-top: 5px double #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+}
+.header_stick {
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width:80px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+.callen {
+  height: 35px;
+  width: 200px;
+  background-color: #ffffff;
+  display: inline-block;
+}

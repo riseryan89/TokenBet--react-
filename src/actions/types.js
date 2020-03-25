@@ -1,0 +1,10 @@
+export const SIGNIN = 'SIGNIN';
+export const SIGNOUT = 'SIGNOUT';
+export const REFRESH_ACEESSTOKEN = 'REFRESH_ACEESSTOKEN';
+
+export const ASSETFETCH = 'ASSETFETCH';
+
+export const SELECTGAME = 'SELECTGAME';
+
+export const TIMESYNC = 'TIMESYNC';
+export const GAMECANCELCODES = 'GAMECANCELCODES';
